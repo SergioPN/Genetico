@@ -41,7 +41,7 @@ $$x_{ih} \in \{0,1\} \quad , \quad y_h \in \{0,1\}$$
 library(maps)
 library(animation)
 
-fronteras <- read.csv("Datos_Ejercicio_5.csv", header = T)
+fronteras <- read.csv("Datos.csv", header = T)
 rownames(fronteras)  <- fronteras$X
 fronteras <- fronteras[2:length(fronteras)]
 nombres_paises<-c("Albania","Germany","Austria","Belgium","Belarus","Bosnia","Bulgaria","Croatia","Denmark",
